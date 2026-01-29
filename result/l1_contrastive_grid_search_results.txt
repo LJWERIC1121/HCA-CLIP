@@ -1,0 +1,793 @@
+================================================================================
+L1-Contrastive Loss Grid Search Results
+================================================================================
+Test Date: $(date)
+Datasets: Plant Disease (34 classes), AI Challenger (53 classes), SPD (42 classes)
+Shots: 1, 2, 4, 8, 16
+Backbone: ViT-B/16
+Augmentation: rotation8 (8x)
+================================================================================
+
+
+================================================================================
+Experiment 1/25: L1=0.2, Contrastive=0.2
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 68.15% | CLIP: 17.44% | MLP: 66.82% | Adapted: 56.47% | Total: 66.94%
+  AI Challenger:  Final: 54.15% | CLIP: 11.30% | MLP: 51.89% | Adapted: 42.32% | Total: 52.83%
+  SPD:  Final: 44.88% | CLIP: 20.12% | MLP: 41.10% | Adapted: 41.45% | Total: 43.93%
+
+2-shot:
+  Plant Disease:  Final: 82.06% | CLIP: 17.44% | MLP: 79.74% | Adapted: 76.06% | Total: 80.65%
+  AI Challenger:  Final: 64.60% | CLIP: 11.30% | MLP: 63.08% | Adapted: 58.55% | Total: 64.40%
+  SPD:  Final: 49.40% | CLIP: 20.12% | MLP: 47.21% | Adapted: 46.76% | Total: 48.48%
+
+4-shot:
+  Plant Disease:  Final: 89.15% | CLIP: 17.44% | MLP: 87.74% | Adapted: 86.41% | Total: 88.79%
+  AI Challenger:  Final: 71.91% | CLIP: 11.30% | MLP: 70.36% | Adapted: 68.85% | Total: 70.94%
+  SPD:  Final: 62.14% | CLIP: 20.12% | MLP: 60.38% | Adapted: 59.81% | Total: 61.07%
+
+8-shot:
+  Plant Disease:  Final: 92.79% | CLIP: 17.44% | MLP: 92.32% | Adapted: 91.35% | Total: 92.59%
+  AI Challenger:  Final: 77.02% | CLIP: 11.30% | MLP: 76.66% | Adapted: 75.60% | Total: 76.96%
+  SPD:  Final: 71.74% | CLIP: 20.12% | MLP: 70.79% | Adapted: 69.86% | Total: 71.21%
+
+16-shot:
+  Plant Disease:  Final: 95.85% | CLIP: 17.44% | MLP: 95.29% | Adapted: 95.47% | Total: 95.53%
+  AI Challenger:  Final: 79.53% | CLIP: 11.30% | MLP: 78.87% | Adapted: 78.98% | Total: 79.51%
+  SPD:  Final: 77.98% | CLIP: 20.12% | MLP: 76.36% | Adapted: 77.17% | Total: 77.57%
+
+
+================================================================================
+Experiment 2/25: L1=0.2, Contrastive=0.4
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 68.12% | CLIP: 17.44% | MLP: 66.97% | Adapted: 56.35% | Total: 67.12%
+  AI Challenger:  Final: 54.00% | CLIP: 11.30% | MLP: 51.74% | Adapted: 42.43% | Total: 52.87%
+  SPD:  Final: 44.88% | CLIP: 20.12% | MLP: 41.14% | Adapted: 41.50% | Total: 43.60%
+
+2-shot:
+  Plant Disease:  Final: 82.12% | CLIP: 17.44% | MLP: 79.74% | Adapted: 76.09% | Total: 80.79%
+  AI Challenger:  Final: 64.60% | CLIP: 11.30% | MLP: 63.06% | Adapted: 58.77% | Total: 64.28%
+  SPD:  Final: 49.45% | CLIP: 20.12% | MLP: 47.36% | Adapted: 47.00% | Total: 48.64%
+
+4-shot:
+  Plant Disease:  Final: 89.15% | CLIP: 17.44% | MLP: 87.76% | Adapted: 86.32% | Total: 88.71%
+  AI Challenger:  Final: 71.89% | CLIP: 11.30% | MLP: 70.17% | Adapted: 68.92% | Total: 71.00%
+  SPD:  Final: 61.95% | CLIP: 20.12% | MLP: 60.40% | Adapted: 59.79% | Total: 61.40%
+
+8-shot:
+  Plant Disease:  Final: 92.85% | CLIP: 17.44% | MLP: 92.50% | Adapted: 91.35% | Total: 92.71%
+  AI Challenger:  Final: 77.11% | CLIP: 11.30% | MLP: 76.74% | Adapted: 75.36% | Total: 76.98%
+  SPD:  Final: 71.81% | CLIP: 20.12% | MLP: 71.38% | Adapted: 70.12% | Total: 71.50%
+
+16-shot:
+  Plant Disease:  Final: 95.85% | CLIP: 17.44% | MLP: 95.35% | Adapted: 95.65% | Total: 95.65%
+  AI Challenger:  Final: 79.45% | CLIP: 11.30% | MLP: 78.85% | Adapted: 79.23% | Total: 79.28%
+  SPD:  Final: 77.86% | CLIP: 20.12% | MLP: 76.95% | Adapted: 77.02% | Total: 77.74%
+
+
+================================================================================
+Experiment 3/25: L1=0.2, Contrastive=0.6
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 68.15% | CLIP: 17.44% | MLP: 66.76% | Adapted: 56.85% | Total: 67.21%
+  AI Challenger:  Final: 53.87% | CLIP: 11.30% | MLP: 51.66% | Adapted: 42.36% | Total: 52.42%
+  SPD:  Final: 45.07% | CLIP: 20.12% | MLP: 41.50% | Adapted: 41.71% | Total: 43.69%
+
+2-shot:
+  Plant Disease:  Final: 82.09% | CLIP: 17.44% | MLP: 79.85% | Adapted: 76.03% | Total: 80.62%
+  AI Challenger:  Final: 64.55% | CLIP: 11.30% | MLP: 62.96% | Adapted: 58.43% | Total: 64.28%
+  SPD:  Final: 49.40% | CLIP: 20.12% | MLP: 46.71% | Adapted: 47.36% | Total: 48.43%
+
+4-shot:
+  Plant Disease:  Final: 89.26% | CLIP: 17.44% | MLP: 88.21% | Adapted: 86.35% | Total: 88.76%
+  AI Challenger:  Final: 71.87% | CLIP: 11.30% | MLP: 70.32% | Adapted: 69.38% | Total: 71.26%
+  SPD:  Final: 62.07% | CLIP: 20.12% | MLP: 60.52% | Adapted: 60.05% | Total: 61.24%
+
+8-shot:
+  Plant Disease:  Final: 92.88% | CLIP: 17.44% | MLP: 92.35% | Adapted: 91.41% | Total: 92.65%
+  AI Challenger:  Final: 77.13% | CLIP: 11.30% | MLP: 76.74% | Adapted: 75.51% | Total: 76.92%
+  SPD:  Final: 71.79% | CLIP: 20.12% | MLP: 71.12% | Adapted: 69.64% | Total: 71.31%
+
+16-shot:
+  Plant Disease:  Final: 95.91% | CLIP: 17.44% | MLP: 95.32% | Adapted: 95.82% | Total: 95.71%
+  AI Challenger:  Final: 79.43% | CLIP: 11.30% | MLP: 78.79% | Adapted: 79.00% | Total: 79.30%
+  SPD:  Final: 77.83% | CLIP: 20.12% | MLP: 76.90% | Adapted: 76.81% | Total: 77.36%
+
+
+================================================================================
+Experiment 4/25: L1=0.2, Contrastive=0.8
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 68.26% | CLIP: 17.44% | MLP: 66.82% | Adapted: 56.88% | Total: 67.32%
+  AI Challenger:  Final: 53.85% | CLIP: 11.30% | MLP: 52.23% | Adapted: 42.49% | Total: 52.94%
+  SPD:  Final: 44.90% | CLIP: 20.12% | MLP: 41.14% | Adapted: 41.76% | Total: 43.71%
+
+2-shot:
+  Plant Disease:  Final: 82.18% | CLIP: 17.44% | MLP: 79.79% | Adapted: 76.26% | Total: 80.47%
+  AI Challenger:  Final: 64.66% | CLIP: 11.30% | MLP: 63.06% | Adapted: 58.72% | Total: 64.30%
+  SPD:  Final: 49.50% | CLIP: 20.12% | MLP: 47.24% | Adapted: 46.69% | Total: 48.43%
+
+4-shot:
+  Plant Disease:  Final: 89.03% | CLIP: 17.44% | MLP: 87.85% | Adapted: 86.12% | Total: 88.59%
+  AI Challenger:  Final: 71.79% | CLIP: 11.30% | MLP: 70.45% | Adapted: 69.00% | Total: 71.13%
+  SPD:  Final: 61.86% | CLIP: 20.12% | MLP: 60.69% | Adapted: 60.05% | Total: 61.21%
+
+8-shot:
+  Plant Disease:  Final: 92.82% | CLIP: 17.44% | MLP: 92.35% | Adapted: 91.79% | Total: 92.53%
+  AI Challenger:  Final: 77.08% | CLIP: 11.30% | MLP: 76.70% | Adapted: 75.81% | Total: 76.87%
+  SPD:  Final: 72.02% | CLIP: 20.12% | MLP: 71.26% | Adapted: 70.02% | Total: 71.43%
+
+16-shot:
+  Plant Disease:  Final: 96.00% | CLIP: 17.44% | MLP: 95.53% | Adapted: 95.82% | Total: 95.79%
+  AI Challenger:  Final: 79.40% | CLIP: 11.30% | MLP: 78.85% | Adapted: 79.15% | Total: 79.28%
+  SPD:  Final: 77.79% | CLIP: 20.12% | MLP: 76.81% | Adapted: 76.90% | Total: 77.38%
+
+
+================================================================================
+Experiment 5/25: L1=0.2, Contrastive=1.0
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 68.71% | CLIP: 17.44% | MLP: 67.09% | Adapted: 57.18% | Total: 67.32%
+  AI Challenger:  Final: 53.79% | CLIP: 11.30% | MLP: 51.87% | Adapted: 42.51% | Total: 52.72%
+  SPD:  Final: 44.81% | CLIP: 20.12% | MLP: 40.83% | Adapted: 41.86% | Total: 43.86%
+
+2-shot:
+  Plant Disease:  Final: 82.21% | CLIP: 17.44% | MLP: 79.94% | Adapted: 76.21% | Total: 80.82%
+  AI Challenger:  Final: 64.64% | CLIP: 11.30% | MLP: 63.00% | Adapted: 59.04% | Total: 64.21%
+  SPD:  Final: 49.52% | CLIP: 20.12% | MLP: 46.88% | Adapted: 47.05% | Total: 48.64%
+
+4-shot:
+  Plant Disease:  Final: 89.06% | CLIP: 17.44% | MLP: 87.65% | Adapted: 86.29% | Total: 88.50%
+  AI Challenger:  Final: 71.85% | CLIP: 11.30% | MLP: 70.34% | Adapted: 69.21% | Total: 71.04%
+  SPD:  Final: 61.98% | CLIP: 20.12% | MLP: 60.64% | Adapted: 60.12% | Total: 61.21%
+
+8-shot:
+  Plant Disease:  Final: 92.91% | CLIP: 17.44% | MLP: 92.41% | Adapted: 91.62% | Total: 92.65%
+  AI Challenger:  Final: 76.96% | CLIP: 11.30% | MLP: 76.66% | Adapted: 75.45% | Total: 76.83%
+  SPD:  Final: 71.93% | CLIP: 20.12% | MLP: 71.10% | Adapted: 69.98% | Total: 71.48%
+
+16-shot:
+  Plant Disease:  Final: 95.91% | CLIP: 17.44% | MLP: 95.26% | Adapted: 95.65% | Total: 95.71%
+  AI Challenger:  Final: 79.45% | CLIP: 11.30% | MLP: 78.62% | Adapted: 79.26% | Total: 79.06%
+  SPD:  Final: 77.83% | CLIP: 20.12% | MLP: 76.67% | Adapted: 76.95% | Total: 77.64%
+
+
+================================================================================
+Experiment 6/25: L1=0.4, Contrastive=0.2
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 68.62% | CLIP: 17.44% | MLP: 67.32% | Adapted: 56.85% | Total: 67.53%
+  AI Challenger:  Final: 53.96% | CLIP: 11.30% | MLP: 51.83% | Adapted: 41.72% | Total: 52.13%
+  SPD:  Final: 44.95% | CLIP: 20.12% | MLP: 40.55% | Adapted: 41.21% | Total: 43.79%
+
+2-shot:
+  Plant Disease:  Final: 81.94% | CLIP: 17.44% | MLP: 79.65% | Adapted: 75.65% | Total: 80.76%
+  AI Challenger:  Final: 64.49% | CLIP: 11.30% | MLP: 62.81% | Adapted: 58.38% | Total: 64.34%
+  SPD:  Final: 49.79% | CLIP: 20.12% | MLP: 47.88% | Adapted: 46.76% | Total: 49.43%
+
+4-shot:
+  Plant Disease:  Final: 89.09% | CLIP: 17.44% | MLP: 87.12% | Adapted: 86.18% | Total: 88.79%
+  AI Challenger:  Final: 72.13% | CLIP: 11.30% | MLP: 70.34% | Adapted: 69.02% | Total: 71.36%
+  SPD:  Final: 62.02% | CLIP: 20.12% | MLP: 60.33% | Adapted: 59.24% | Total: 61.43%
+
+8-shot:
+  Plant Disease:  Final: 92.71% | CLIP: 17.44% | MLP: 91.62% | Adapted: 91.47% | Total: 91.97%
+  AI Challenger:  Final: 76.70% | CLIP: 11.30% | MLP: 75.64% | Adapted: 75.47% | Total: 76.42%
+  SPD:  Final: 72.19% | CLIP: 20.12% | MLP: 71.33% | Adapted: 70.38% | Total: 71.79%
+
+16-shot:
+  Plant Disease:  Final: 95.85% | CLIP: 17.44% | MLP: 95.38% | Adapted: 95.62% | Total: 95.59%
+  AI Challenger:  Final: 79.51% | CLIP: 11.30% | MLP: 79.02% | Adapted: 79.26% | Total: 79.23%
+  SPD:  Final: 78.07% | CLIP: 20.12% | MLP: 77.19% | Adapted: 77.07% | Total: 77.50%
+
+
+================================================================================
+Experiment 7/25: L1=0.4, Contrastive=0.4
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 68.76% | CLIP: 17.44% | MLP: 67.26% | Adapted: 56.97% | Total: 67.29%
+  AI Challenger:  Final: 53.96% | CLIP: 11.30% | MLP: 52.17% | Adapted: 41.51% | Total: 52.06%
+  SPD:  Final: 44.86% | CLIP: 20.12% | MLP: 40.57% | Adapted: 41.05% | Total: 43.55%
+
+2-shot:
+  Plant Disease:  Final: 82.24% | CLIP: 17.44% | MLP: 79.85% | Adapted: 75.88% | Total: 81.00%
+  AI Challenger:  Final: 64.40% | CLIP: 11.30% | MLP: 62.62% | Adapted: 58.42% | Total: 63.94%
+  SPD:  Final: 49.67% | CLIP: 20.12% | MLP: 47.76% | Adapted: 46.45% | Total: 49.38%
+
+4-shot:
+  Plant Disease:  Final: 89.18% | CLIP: 17.44% | MLP: 87.24% | Adapted: 86.00% | Total: 88.94%
+  AI Challenger:  Final: 71.83% | CLIP: 11.30% | MLP: 70.30% | Adapted: 68.92% | Total: 71.53%
+  SPD:  Final: 61.86% | CLIP: 20.12% | MLP: 60.02% | Adapted: 59.45% | Total: 61.05%
+
+8-shot:
+  Plant Disease:  Final: 92.47% | CLIP: 17.44% | MLP: 91.88% | Adapted: 91.59% | Total: 92.32%
+  AI Challenger:  Final: 76.75% | CLIP: 11.30% | MLP: 75.53% | Adapted: 75.58% | Total: 76.45%
+  SPD:  Final: 72.24% | CLIP: 20.12% | MLP: 71.62% | Adapted: 69.83% | Total: 72.05%
+
+16-shot:
+  Plant Disease:  Final: 95.88% | CLIP: 17.44% | MLP: 95.53% | Adapted: 95.65% | Total: 95.65%
+  AI Challenger:  Final: 79.62% | CLIP: 11.30% | MLP: 78.55% | Adapted: 79.60% | Total: 78.81%
+  SPD:  Final: 77.90% | CLIP: 20.12% | MLP: 77.02% | Adapted: 76.71% | Total: 77.69%
+
+
+================================================================================
+Experiment 8/25: L1=0.4, Contrastive=0.6
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 69.06% | CLIP: 17.44% | MLP: 67.65% | Adapted: 56.21% | Total: 67.65%
+  AI Challenger:  Final: 54.09% | CLIP: 11.30% | MLP: 51.91% | Adapted: 42.04% | Total: 52.11%
+  SPD:  Final: 45.10% | CLIP: 20.12% | MLP: 41.00% | Adapted: 41.05% | Total: 43.76%
+
+2-shot:
+  Plant Disease:  Final: 82.00% | CLIP: 17.44% | MLP: 79.71% | Adapted: 75.94% | Total: 80.68%
+  AI Challenger:  Final: 64.45% | CLIP: 11.30% | MLP: 62.77% | Adapted: 58.70% | Total: 63.87%
+  SPD:  Final: 49.83% | CLIP: 20.12% | MLP: 48.05% | Adapted: 46.67% | Total: 49.31%
+
+4-shot:
+  Plant Disease:  Final: 89.18% | CLIP: 17.44% | MLP: 87.41% | Adapted: 86.09% | Total: 88.71%
+  AI Challenger:  Final: 72.02% | CLIP: 11.30% | MLP: 70.62% | Adapted: 68.62% | Total: 71.28%
+  SPD:  Final: 61.98% | CLIP: 20.12% | MLP: 60.52% | Adapted: 59.74% | Total: 61.43%
+
+8-shot:
+  Plant Disease:  Final: 92.56% | CLIP: 17.44% | MLP: 91.50% | Adapted: 91.53% | Total: 92.35%
+  AI Challenger:  Final: 76.94% | CLIP: 11.30% | MLP: 75.79% | Adapted: 75.51% | Total: 76.74%
+  SPD:  Final: 72.29% | CLIP: 20.12% | MLP: 71.07% | Adapted: 70.55% | Total: 71.98%
+
+16-shot:
+  Plant Disease:  Final: 95.79% | CLIP: 17.44% | MLP: 95.53% | Adapted: 95.62% | Total: 95.59%
+  AI Challenger:  Final: 79.72% | CLIP: 11.30% | MLP: 78.72% | Adapted: 79.66% | Total: 78.89%
+  SPD:  Final: 77.86% | CLIP: 20.12% | MLP: 76.98% | Adapted: 76.62% | Total: 77.36%
+
+
+================================================================================
+Experiment 9/25: L1=0.4, Contrastive=0.8
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 68.85% | CLIP: 17.44% | MLP: 67.44% | Adapted: 56.65% | Total: 67.47%
+  AI Challenger:  Final: 54.21% | CLIP: 11.30% | MLP: 52.34% | Adapted: 42.13% | Total: 52.15%
+  SPD:  Final: 44.90% | CLIP: 20.12% | MLP: 40.79% | Adapted: 40.95% | Total: 43.48%
+
+2-shot:
+  Plant Disease:  Final: 82.15% | CLIP: 17.44% | MLP: 79.76% | Adapted: 76.18% | Total: 80.65%
+  AI Challenger:  Final: 64.57% | CLIP: 11.30% | MLP: 62.60% | Adapted: 58.19% | Total: 63.79%
+  SPD:  Final: 49.93% | CLIP: 20.12% | MLP: 47.52% | Adapted: 46.67% | Total: 48.95%
+
+4-shot:
+  Plant Disease:  Final: 89.18% | CLIP: 17.44% | MLP: 87.38% | Adapted: 86.00% | Total: 88.97%
+  AI Challenger:  Final: 71.83% | CLIP: 11.30% | MLP: 70.26% | Adapted: 68.81% | Total: 71.04%
+  SPD:  Final: 62.50% | CLIP: 20.12% | MLP: 60.40% | Adapted: 59.40% | Total: 61.64%
+
+8-shot:
+  Plant Disease:  Final: 92.56% | CLIP: 17.44% | MLP: 91.59% | Adapted: 91.38% | Total: 92.18%
+  AI Challenger:  Final: 76.89% | CLIP: 11.30% | MLP: 75.77% | Adapted: 75.85% | Total: 76.28%
+  SPD:  Final: 72.21% | CLIP: 20.12% | MLP: 71.24% | Adapted: 70.67% | Total: 72.00%
+
+16-shot:
+  Plant Disease:  Final: 95.82% | CLIP: 17.44% | MLP: 95.56% | Adapted: 95.65% | Total: 95.82%
+  AI Challenger:  Final: 79.75% | CLIP: 11.30% | MLP: 79.13% | Adapted: 79.49% | Total: 79.32%
+  SPD:  Final: 77.86% | CLIP: 20.12% | MLP: 77.14% | Adapted: 76.71% | Total: 77.52%
+
+
+================================================================================
+Experiment 10/25: L1=0.4, Contrastive=1.0
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 68.97% | CLIP: 17.44% | MLP: 67.94% | Adapted: 56.68% | Total: 67.53%
+  AI Challenger:  Final: 54.26% | CLIP: 11.30% | MLP: 51.77% | Adapted: 41.81% | Total: 52.19%
+  SPD:  Final: 44.69% | CLIP: 20.12% | MLP: 40.50% | Adapted: 40.93% | Total: 43.62%
+
+2-shot:
+  Plant Disease:  Final: 82.06% | CLIP: 17.44% | MLP: 79.68% | Adapted: 75.85% | Total: 80.85%
+  AI Challenger:  Final: 64.40% | CLIP: 11.30% | MLP: 62.42% | Adapted: 58.21% | Total: 63.74%
+  SPD:  Final: 49.67% | CLIP: 20.12% | MLP: 48.05% | Adapted: 46.74% | Total: 49.38%
+
+4-shot:
+  Plant Disease:  Final: 89.24% | CLIP: 17.44% | MLP: 87.26% | Adapted: 86.06% | Total: 89.06%
+  AI Challenger:  Final: 71.74% | CLIP: 11.30% | MLP: 70.32% | Adapted: 69.30% | Total: 71.42%
+  SPD:  Final: 62.24% | CLIP: 20.12% | MLP: 60.43% | Adapted: 59.38% | Total: 61.64%
+
+8-shot:
+  Plant Disease:  Final: 92.65% | CLIP: 17.44% | MLP: 91.79% | Adapted: 91.53% | Total: 92.26%
+  AI Challenger:  Final: 76.85% | CLIP: 11.30% | MLP: 75.72% | Adapted: 75.42% | Total: 76.58%
+  SPD:  Final: 71.98% | CLIP: 20.12% | MLP: 71.31% | Adapted: 70.29% | Total: 71.86%
+
+16-shot:
+  Plant Disease:  Final: 95.82% | CLIP: 17.44% | MLP: 95.41% | Adapted: 95.68% | Total: 95.53%
+  AI Challenger:  Final: 79.72% | CLIP: 11.30% | MLP: 79.02% | Adapted: 79.55% | Total: 79.36%
+  SPD:  Final: 77.71% | CLIP: 20.12% | MLP: 77.10% | Adapted: 76.79% | Total: 77.48%
+
+
+================================================================================
+Experiment 11/25: L1=0.6, Contrastive=0.2
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 68.94% | CLIP: 17.44% | MLP: 68.12% | Adapted: 56.65% | Total: 67.44%
+  AI Challenger:  Final: 53.47% | CLIP: 11.30% | MLP: 49.92% | Adapted: 41.11% | Total: 51.04%
+  SPD:  Final: 44.69% | CLIP: 20.12% | MLP: 39.71% | Adapted: 40.74% | Total: 43.62%
+
+2-shot:
+  Plant Disease:  Final: 82.26% | CLIP: 17.44% | MLP: 79.59% | Adapted: 75.24% | Total: 80.79%
+  AI Challenger:  Final: 64.40% | CLIP: 11.30% | MLP: 62.64% | Adapted: 58.28% | Total: 64.43%
+  SPD:  Final: 49.81% | CLIP: 20.12% | MLP: 46.74% | Adapted: 46.90% | Total: 49.55%
+
+4-shot:
+  Plant Disease:  Final: 89.12% | CLIP: 17.44% | MLP: 87.09% | Adapted: 85.56% | Total: 89.03%
+  AI Challenger:  Final: 71.70% | CLIP: 11.30% | MLP: 69.43% | Adapted: 68.70% | Total: 71.00%
+  SPD:  Final: 61.98% | CLIP: 20.12% | MLP: 59.93% | Adapted: 59.12% | Total: 60.90%
+
+8-shot:
+  Plant Disease:  Final: 92.94% | CLIP: 17.44% | MLP: 92.44% | Adapted: 91.68% | Total: 92.85%
+  AI Challenger:  Final: 76.92% | CLIP: 11.30% | MLP: 76.36% | Adapted: 76.02% | Total: 76.77%
+  SPD:  Final: 71.79% | CLIP: 20.12% | MLP: 71.07% | Adapted: 69.95% | Total: 71.57%
+
+16-shot:
+  Plant Disease:  Final: 96.03% | CLIP: 17.44% | MLP: 95.62% | Adapted: 95.76% | Total: 95.71%
+  AI Challenger:  Final: 79.94% | CLIP: 11.30% | MLP: 79.06% | Adapted: 79.40% | Total: 79.26%
+  SPD:  Final: 77.86% | CLIP: 20.12% | MLP: 77.00% | Adapted: 76.81% | Total: 77.38%
+
+
+================================================================================
+Experiment 12/25: L1=0.6, Contrastive=0.4
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 68.94% | CLIP: 17.44% | MLP: 66.44% | Adapted: 56.15% | Total: 66.88%
+  AI Challenger:  Final: 53.70% | CLIP: 11.30% | MLP: 50.28% | Adapted: 41.13% | Total: 51.02%
+  SPD:  Final: 44.95% | CLIP: 20.12% | MLP: 40.24% | Adapted: 41.45% | Total: 43.93%
+
+2-shot:
+  Plant Disease:  Final: 82.15% | CLIP: 17.44% | MLP: 79.41% | Adapted: 75.15% | Total: 80.85%
+  AI Challenger:  Final: 64.38% | CLIP: 11.30% | MLP: 62.98% | Adapted: 58.36% | Total: 64.08%
+  SPD:  Final: 49.76% | CLIP: 20.12% | MLP: 47.57% | Adapted: 46.48% | Total: 49.24%
+
+4-shot:
+  Plant Disease:  Final: 89.21% | CLIP: 17.44% | MLP: 87.29% | Adapted: 85.59% | Total: 89.12%
+  AI Challenger:  Final: 71.64% | CLIP: 11.30% | MLP: 69.38% | Adapted: 68.66% | Total: 70.81%
+  SPD:  Final: 61.86% | CLIP: 20.12% | MLP: 60.12% | Adapted: 59.12% | Total: 61.00%
+
+8-shot:
+  Plant Disease:  Final: 92.97% | CLIP: 17.44% | MLP: 92.26% | Adapted: 91.56% | Total: 92.85%
+  AI Challenger:  Final: 77.11% | CLIP: 11.30% | MLP: 76.58% | Adapted: 75.81% | Total: 76.83%
+  SPD:  Final: 71.81% | CLIP: 20.12% | MLP: 70.81% | Adapted: 70.07% | Total: 71.81%
+
+16-shot:
+  Plant Disease:  Final: 95.82% | CLIP: 17.44% | MLP: 95.47% | Adapted: 95.71% | Total: 95.65%
+  AI Challenger:  Final: 79.77% | CLIP: 11.30% | MLP: 79.02% | Adapted: 79.28% | Total: 79.23%
+  SPD:  Final: 77.71% | CLIP: 20.12% | MLP: 76.98% | Adapted: 76.79% | Total: 77.26%
+
+
+================================================================================
+Experiment 13/25: L1=0.6, Contrastive=0.6
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 68.76% | CLIP: 17.44% | MLP: 67.03% | Adapted: 56.59% | Total: 66.71%
+  AI Challenger:  Final: 53.58% | CLIP: 11.30% | MLP: 49.98% | Adapted: 41.45% | Total: 51.23%
+  SPD:  Final: 44.86% | CLIP: 20.12% | MLP: 38.79% | Adapted: 41.24% | Total: 43.64%
+
+2-shot:
+  Plant Disease:  Final: 82.35% | CLIP: 17.44% | MLP: 79.82% | Adapted: 75.24% | Total: 81.06%
+  AI Challenger:  Final: 64.43% | CLIP: 11.30% | MLP: 62.94% | Adapted: 58.36% | Total: 64.17%
+  SPD:  Final: 49.93% | CLIP: 20.12% | MLP: 46.88% | Adapted: 46.76% | Total: 49.43%
+
+4-shot:
+  Plant Disease:  Final: 89.12% | CLIP: 17.44% | MLP: 88.00% | Adapted: 85.71% | Total: 89.06%
+  AI Challenger:  Final: 71.68% | CLIP: 11.30% | MLP: 69.64% | Adapted: 68.62% | Total: 70.94%
+  SPD:  Final: 62.17% | CLIP: 20.12% | MLP: 60.24% | Adapted: 59.19% | Total: 61.40%
+
+8-shot:
+  Plant Disease:  Final: 92.85% | CLIP: 17.44% | MLP: 92.47% | Adapted: 91.32% | Total: 92.91%
+  AI Challenger:  Final: 76.87% | CLIP: 11.30% | MLP: 76.43% | Adapted: 75.74% | Total: 76.51%
+  SPD:  Final: 71.74% | CLIP: 20.12% | MLP: 70.88% | Adapted: 70.21% | Total: 71.60%
+
+16-shot:
+  Plant Disease:  Final: 95.82% | CLIP: 17.44% | MLP: 95.65% | Adapted: 95.62% | Total: 95.76%
+  AI Challenger:  Final: 79.96% | CLIP: 11.30% | MLP: 79.28% | Adapted: 79.28% | Total: 79.45%
+  SPD:  Final: 77.55% | CLIP: 20.12% | MLP: 77.02% | Adapted: 76.55% | Total: 77.12%
+
+
+================================================================================
+Experiment 14/25: L1=0.6, Contrastive=0.8
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 68.97% | CLIP: 17.44% | MLP: 66.94% | Adapted: 56.18% | Total: 66.65%
+  AI Challenger:  Final: 53.81% | CLIP: 11.30% | MLP: 50.43% | Adapted: 41.36% | Total: 51.81%
+  SPD:  Final: 44.98% | CLIP: 20.12% | MLP: 40.21% | Adapted: 41.60% | Total: 43.95%
+
+2-shot:
+  Plant Disease:  Final: 82.15% | CLIP: 17.44% | MLP: 79.65% | Adapted: 75.15% | Total: 80.85%
+  AI Challenger:  Final: 64.62% | CLIP: 11.30% | MLP: 63.09% | Adapted: 58.79% | Total: 64.43%
+  SPD:  Final: 50.07% | CLIP: 20.12% | MLP: 47.21% | Adapted: 46.71% | Total: 49.36%
+
+4-shot:
+  Plant Disease:  Final: 89.00% | CLIP: 17.44% | MLP: 87.76% | Adapted: 85.76% | Total: 89.00%
+  AI Challenger:  Final: 71.68% | CLIP: 11.30% | MLP: 69.74% | Adapted: 68.40% | Total: 71.11%
+  SPD:  Final: 62.14% | CLIP: 20.12% | MLP: 59.90% | Adapted: 59.71% | Total: 61.26%
+
+8-shot:
+  Plant Disease:  Final: 92.88% | CLIP: 17.44% | MLP: 92.44% | Adapted: 91.29% | Total: 92.91%
+  AI Challenger:  Final: 76.94% | CLIP: 11.30% | MLP: 76.47% | Adapted: 75.66% | Total: 76.83%
+  SPD:  Final: 71.81% | CLIP: 20.12% | MLP: 70.98% | Adapted: 70.02% | Total: 71.45%
+
+16-shot:
+  Plant Disease:  Final: 95.97% | CLIP: 17.44% | MLP: 95.50% | Adapted: 95.59% | Total: 95.68%
+  AI Challenger:  Final: 79.83% | CLIP: 11.30% | MLP: 79.00% | Adapted: 79.58% | Total: 79.25%
+  SPD:  Final: 77.55% | CLIP: 20.12% | MLP: 76.86% | Adapted: 76.33% | Total: 76.93%
+
+
+================================================================================
+Experiment 15/25: L1=0.6, Contrastive=1.0
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 68.71% | CLIP: 17.44% | MLP: 67.68% | Adapted: 56.91% | Total: 66.97%
+  AI Challenger:  Final: 53.79% | CLIP: 11.30% | MLP: 51.15% | Adapted: 41.23% | Total: 51.32%
+  SPD:  Final: 44.62% | CLIP: 20.12% | MLP: 40.33% | Adapted: 41.36% | Total: 43.79%
+
+2-shot:
+  Plant Disease:  Final: 82.29% | CLIP: 17.44% | MLP: 79.97% | Adapted: 75.26% | Total: 80.82%
+  AI Challenger:  Final: 64.40% | CLIP: 11.30% | MLP: 62.91% | Adapted: 58.17% | Total: 64.34%
+  SPD:  Final: 49.88% | CLIP: 20.12% | MLP: 47.83% | Adapted: 46.50% | Total: 49.33%
+
+4-shot:
+  Plant Disease:  Final: 89.09% | CLIP: 17.44% | MLP: 87.21% | Adapted: 84.94% | Total: 88.50%
+  AI Challenger:  Final: 71.62% | CLIP: 11.30% | MLP: 69.51% | Adapted: 68.58% | Total: 71.04%
+  SPD:  Final: 62.14% | CLIP: 20.12% | MLP: 59.71% | Adapted: 59.43% | Total: 61.17%
+
+8-shot:
+  Plant Disease:  Final: 92.85% | CLIP: 17.44% | MLP: 92.21% | Adapted: 91.38% | Total: 92.79%
+  AI Challenger:  Final: 77.02% | CLIP: 11.30% | MLP: 76.70% | Adapted: 75.81% | Total: 77.00%
+  SPD:  Final: 71.79% | CLIP: 20.12% | MLP: 70.93% | Adapted: 69.86% | Total: 71.74%
+
+16-shot:
+  Plant Disease:  Final: 95.94% | CLIP: 17.44% | MLP: 95.50% | Adapted: 95.65% | Total: 95.62%
+  AI Challenger:  Final: 79.74% | CLIP: 11.30% | MLP: 79.28% | Adapted: 79.17% | Total: 79.43%
+  SPD:  Final: 77.69% | CLIP: 20.12% | MLP: 77.19% | Adapted: 76.48% | Total: 77.57%
+
+
+================================================================================
+Experiment 16/25: L1=0.8, Contrastive=0.2
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 69.56% | CLIP: 17.44% | MLP: 66.74% | Adapted: 56.53% | Total: 66.44%
+  AI Challenger:  Final: 52.43% | CLIP: 11.30% | MLP: 47.85% | Adapted: 41.02% | Total: 49.74%
+  SPD:  Final: 45.05% | CLIP: 20.12% | MLP: 39.48% | Adapted: 40.74% | Total: 43.86%
+
+2-shot:
+  Plant Disease:  Final: 81.88% | CLIP: 17.44% | MLP: 78.94% | Adapted: 75.09% | Total: 80.76%
+  AI Challenger:  Final: 64.02% | CLIP: 11.30% | MLP: 62.26% | Adapted: 57.34% | Total: 63.64%
+  SPD:  Final: 49.95% | CLIP: 20.12% | MLP: 47.55% | Adapted: 46.21% | Total: 49.74%
+
+4-shot:
+  Plant Disease:  Final: 89.38% | CLIP: 17.44% | MLP: 87.74% | Adapted: 85.18% | Total: 89.32%
+  AI Challenger:  Final: 71.40% | CLIP: 11.30% | MLP: 69.15% | Adapted: 68.64% | Total: 70.74%
+  SPD:  Final: 61.67% | CLIP: 20.12% | MLP: 59.93% | Adapted: 58.81% | Total: 60.98%
+
+8-shot:
+  Plant Disease:  Final: 92.97% | CLIP: 17.44% | MLP: 92.59% | Adapted: 91.24% | Total: 93.03%
+  AI Challenger:  Final: 77.23% | CLIP: 11.30% | MLP: 76.30% | Adapted: 75.79% | Total: 76.75%
+  SPD:  Final: 71.88% | CLIP: 20.12% | MLP: 71.43% | Adapted: 70.12% | Total: 71.50%
+
+16-shot:
+  Plant Disease:  Final: 95.88% | CLIP: 17.44% | MLP: 95.53% | Adapted: 95.65% | Total: 95.79%
+  AI Challenger:  Final: 79.98% | CLIP: 11.30% | MLP: 79.06% | Adapted: 79.40% | Total: 79.28%
+  SPD:  Final: 77.67% | CLIP: 20.12% | MLP: 77.17% | Adapted: 76.52% | Total: 77.60%
+
+
+================================================================================
+Experiment 17/25: L1=0.8, Contrastive=0.4
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 69.65% | CLIP: 17.44% | MLP: 66.71% | Adapted: 56.26% | Total: 67.00%
+  AI Challenger:  Final: 52.06% | CLIP: 11.30% | MLP: 47.09% | Adapted: 41.19% | Total: 49.75%
+  SPD:  Final: 44.69% | CLIP: 20.12% | MLP: 39.10% | Adapted: 40.69% | Total: 43.69%
+
+2-shot:
+  Plant Disease:  Final: 81.94% | CLIP: 17.44% | MLP: 79.12% | Adapted: 74.53% | Total: 81.18%
+  AI Challenger:  Final: 64.11% | CLIP: 11.30% | MLP: 62.40% | Adapted: 57.08% | Total: 63.77%
+  SPD:  Final: 50.12% | CLIP: 20.12% | MLP: 47.64% | Adapted: 46.33% | Total: 49.79%
+
+4-shot:
+  Plant Disease:  Final: 89.29% | CLIP: 17.44% | MLP: 87.41% | Adapted: 85.12% | Total: 89.24%
+  AI Challenger:  Final: 71.38% | CLIP: 11.30% | MLP: 69.26% | Adapted: 67.96% | Total: 70.92%
+  SPD:  Final: 61.50% | CLIP: 20.12% | MLP: 59.43% | Adapted: 58.52% | Total: 60.86%
+
+8-shot:
+  Plant Disease:  Final: 93.00% | CLIP: 17.44% | MLP: 92.15% | Adapted: 91.71% | Total: 92.79%
+  AI Challenger:  Final: 77.34% | CLIP: 11.30% | MLP: 76.40% | Adapted: 76.19% | Total: 76.53%
+  SPD:  Final: 71.98% | CLIP: 20.12% | MLP: 71.31% | Adapted: 70.24% | Total: 71.62%
+
+16-shot:
+  Plant Disease:  Final: 95.97% | CLIP: 17.44% | MLP: 95.53% | Adapted: 95.68% | Total: 95.65%
+  AI Challenger:  Final: 80.02% | CLIP: 11.30% | MLP: 79.08% | Adapted: 79.45% | Total: 79.32%
+  SPD:  Final: 77.86% | CLIP: 20.12% | MLP: 77.12% | Adapted: 76.17% | Total: 77.45%
+
+
+================================================================================
+Experiment 18/25: L1=0.8, Contrastive=0.6
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 69.76% | CLIP: 17.44% | MLP: 68.00% | Adapted: 56.47% | Total: 67.79%
+  AI Challenger:  Final: 52.11% | CLIP: 11.30% | MLP: 47.64% | Adapted: 41.43% | Total: 49.91%
+  SPD:  Final: 44.76% | CLIP: 20.12% | MLP: 39.52% | Adapted: 40.86% | Total: 43.90%
+
+2-shot:
+  Plant Disease:  Final: 82.00% | CLIP: 17.44% | MLP: 79.26% | Adapted: 75.12% | Total: 80.65%
+  AI Challenger:  Final: 64.15% | CLIP: 11.30% | MLP: 62.38% | Adapted: 56.92% | Total: 63.87%
+  SPD:  Final: 50.00% | CLIP: 20.12% | MLP: 47.14% | Adapted: 46.74% | Total: 49.26%
+
+4-shot:
+  Plant Disease:  Final: 89.26% | CLIP: 17.44% | MLP: 87.41% | Adapted: 85.26% | Total: 89.21%
+  AI Challenger:  Final: 71.58% | CLIP: 11.30% | MLP: 69.38% | Adapted: 68.70% | Total: 70.87%
+  SPD:  Final: 61.71% | CLIP: 20.12% | MLP: 60.12% | Adapted: 58.83% | Total: 61.02%
+
+8-shot:
+  Plant Disease:  Final: 92.91% | CLIP: 17.44% | MLP: 92.24% | Adapted: 91.79% | Total: 92.82%
+  AI Challenger:  Final: 77.21% | CLIP: 11.30% | MLP: 76.72% | Adapted: 75.94% | Total: 76.75%
+  SPD:  Final: 71.71% | CLIP: 20.12% | MLP: 71.45% | Adapted: 70.40% | Total: 71.62%
+
+16-shot:
+  Plant Disease:  Final: 95.88% | CLIP: 17.44% | MLP: 95.50% | Adapted: 95.56% | Total: 95.68%
+  AI Challenger:  Final: 79.92% | CLIP: 11.30% | MLP: 79.06% | Adapted: 79.60% | Total: 79.25%
+  SPD:  Final: 77.71% | CLIP: 20.12% | MLP: 76.64% | Adapted: 76.12% | Total: 77.38%
+
+
+================================================================================
+Experiment 19/25: L1=0.8, Contrastive=0.8
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 69.71% | CLIP: 17.44% | MLP: 68.12% | Adapted: 56.29% | Total: 67.15%
+  AI Challenger:  Final: 52.43% | CLIP: 11.30% | MLP: 47.00% | Adapted: 41.08% | Total: 50.00%
+  SPD:  Final: 44.60% | CLIP: 20.12% | MLP: 39.14% | Adapted: 41.02% | Total: 43.71%
+
+2-shot:
+  Plant Disease:  Final: 82.03% | CLIP: 17.44% | MLP: 79.12% | Adapted: 75.03% | Total: 80.88%
+  AI Challenger:  Final: 64.15% | CLIP: 11.30% | MLP: 62.15% | Adapted: 56.81% | Total: 63.51%
+  SPD:  Final: 50.14% | CLIP: 20.12% | MLP: 47.74% | Adapted: 46.33% | Total: 49.52%
+
+4-shot:
+  Plant Disease:  Final: 89.44% | CLIP: 17.44% | MLP: 87.44% | Adapted: 85.29% | Total: 89.35%
+  AI Challenger:  Final: 71.53% | CLIP: 11.30% | MLP: 69.49% | Adapted: 67.72% | Total: 71.04%
+  SPD:  Final: 61.67% | CLIP: 20.12% | MLP: 59.79% | Adapted: 59.17% | Total: 60.88%
+
+8-shot:
+  Plant Disease:  Final: 93.00% | CLIP: 17.44% | MLP: 92.24% | Adapted: 91.74% | Total: 92.74%
+  AI Challenger:  Final: 77.23% | CLIP: 11.30% | MLP: 76.79% | Adapted: 75.70% | Total: 76.94%
+  SPD:  Final: 71.83% | CLIP: 20.12% | MLP: 71.50% | Adapted: 70.05% | Total: 71.76%
+
+16-shot:
+  Plant Disease:  Final: 95.91% | CLIP: 17.44% | MLP: 95.59% | Adapted: 95.56% | Total: 95.71%
+  AI Challenger:  Final: 79.94% | CLIP: 11.30% | MLP: 78.91% | Adapted: 79.53% | Total: 79.04%
+  SPD:  Final: 78.02% | CLIP: 20.12% | MLP: 77.17% | Adapted: 76.40% | Total: 77.67%
+
+
+================================================================================
+Experiment 20/25: L1=0.8, Contrastive=1.0
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 69.41% | CLIP: 17.44% | MLP: 66.74% | Adapted: 56.32% | Total: 66.76%
+  AI Challenger:  Final: 52.79% | CLIP: 11.30% | MLP: 48.25% | Adapted: 41.09% | Total: 50.34%
+  SPD:  Final: 44.57% | CLIP: 20.12% | MLP: 38.62% | Adapted: 41.31% | Total: 43.48%
+
+2-shot:
+  Plant Disease:  Final: 82.09% | CLIP: 17.44% | MLP: 79.03% | Adapted: 75.12% | Total: 81.00%
+  AI Challenger:  Final: 64.21% | CLIP: 11.30% | MLP: 62.15% | Adapted: 57.11% | Total: 63.91%
+  SPD:  Final: 50.12% | CLIP: 20.12% | MLP: 47.83% | Adapted: 46.43% | Total: 49.86%
+
+4-shot:
+  Plant Disease:  Final: 89.35% | CLIP: 17.44% | MLP: 87.44% | Adapted: 85.29% | Total: 89.09%
+  AI Challenger:  Final: 71.51% | CLIP: 11.30% | MLP: 69.53% | Adapted: 67.89% | Total: 71.17%
+  SPD:  Final: 61.86% | CLIP: 20.12% | MLP: 60.00% | Adapted: 58.88% | Total: 61.02%
+
+8-shot:
+  Plant Disease:  Final: 92.97% | CLIP: 17.44% | MLP: 92.09% | Adapted: 91.91% | Total: 92.79%
+  AI Challenger:  Final: 77.11% | CLIP: 11.30% | MLP: 76.28% | Adapted: 75.66% | Total: 76.45%
+  SPD:  Final: 71.76% | CLIP: 20.12% | MLP: 71.38% | Adapted: 69.76% | Total: 71.67%
+
+16-shot:
+  Plant Disease:  Final: 95.85% | CLIP: 17.44% | MLP: 95.32% | Adapted: 95.68% | Total: 95.59%
+  AI Challenger:  Final: 80.09% | CLIP: 11.30% | MLP: 79.13% | Adapted: 79.68% | Total: 79.34%
+  SPD:  Final: 77.64% | CLIP: 20.12% | MLP: 76.79% | Adapted: 76.26% | Total: 77.05%
+
+
+================================================================================
+Experiment 21/25: L1=1.0, Contrastive=0.2
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 69.62% | CLIP: 17.44% | MLP: 66.56% | Adapted: 55.65% | Total: 66.29%
+  AI Challenger:  Final: 53.51% | CLIP: 11.30% | MLP: 50.34% | Adapted: 40.25% | Total: 50.25%
+  SPD:  Final: 44.83% | CLIP: 20.12% | MLP: 38.69% | Adapted: 39.98% | Total: 43.88%
+
+2-shot:
+  Plant Disease:  Final: 82.29% | CLIP: 17.44% | MLP: 78.41% | Adapted: 74.26% | Total: 80.76%
+  AI Challenger:  Final: 64.23% | CLIP: 11.30% | MLP: 62.45% | Adapted: 56.58% | Total: 63.83%
+  SPD:  Final: 50.10% | CLIP: 20.12% | MLP: 47.52% | Adapted: 46.26% | Total: 49.74%
+
+4-shot:
+  Plant Disease:  Final: 89.32% | CLIP: 17.44% | MLP: 87.74% | Adapted: 85.12% | Total: 89.24%
+  AI Challenger:  Final: 71.53% | CLIP: 11.30% | MLP: 70.19% | Adapted: 68.17% | Total: 71.25%
+  SPD:  Final: 61.67% | CLIP: 20.12% | MLP: 59.67% | Adapted: 58.55% | Total: 60.81%
+
+8-shot:
+  Plant Disease:  Final: 93.06% | CLIP: 17.44% | MLP: 92.32% | Adapted: 91.50% | Total: 93.00%
+  AI Challenger:  Final: 77.02% | CLIP: 11.30% | MLP: 76.38% | Adapted: 75.58% | Total: 76.62%
+  SPD:  Final: 71.43% | CLIP: 20.12% | MLP: 70.81% | Adapted: 69.86% | Total: 71.26%
+
+16-shot:
+  Plant Disease:  Final: 96.00% | CLIP: 17.44% | MLP: 95.53% | Adapted: 95.82% | Total: 95.91%
+  AI Challenger:  Final: 80.04% | CLIP: 11.30% | MLP: 79.40% | Adapted: 79.55% | Total: 79.51%
+  SPD:  Final: 77.83% | CLIP: 20.12% | MLP: 77.21% | Adapted: 76.52% | Total: 77.52%
+
+
+================================================================================
+Experiment 22/25: L1=1.0, Contrastive=0.4
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 69.68% | CLIP: 17.44% | MLP: 67.62% | Adapted: 56.12% | Total: 66.68%
+  AI Challenger:  Final: 53.98% | CLIP: 11.30% | MLP: 50.34% | Adapted: 40.75% | Total: 50.64%
+  SPD:  Final: 44.71% | CLIP: 20.12% | MLP: 38.69% | Adapted: 40.17% | Total: 44.00%
+
+2-shot:
+  Plant Disease:  Final: 82.03% | CLIP: 17.44% | MLP: 78.71% | Adapted: 74.35% | Total: 80.76%
+  AI Challenger:  Final: 64.45% | CLIP: 11.30% | MLP: 62.19% | Adapted: 56.36% | Total: 63.96%
+  SPD:  Final: 50.26% | CLIP: 20.12% | MLP: 48.19% | Adapted: 46.05% | Total: 50.02%
+
+4-shot:
+  Plant Disease:  Final: 89.41% | CLIP: 17.44% | MLP: 87.76% | Adapted: 85.21% | Total: 89.38%
+  AI Challenger:  Final: 71.83% | CLIP: 11.30% | MLP: 70.40% | Adapted: 68.38% | Total: 71.58%
+  SPD:  Final: 61.62% | CLIP: 20.12% | MLP: 59.79% | Adapted: 58.48% | Total: 61.14%
+
+8-shot:
+  Plant Disease:  Final: 93.03% | CLIP: 17.44% | MLP: 92.41% | Adapted: 91.38% | Total: 92.74%
+  AI Challenger:  Final: 77.15% | CLIP: 11.30% | MLP: 76.49% | Adapted: 75.45% | Total: 76.72%
+  SPD:  Final: 71.60% | CLIP: 20.12% | MLP: 70.67% | Adapted: 69.79% | Total: 71.36%
+
+16-shot:
+  Plant Disease:  Final: 96.00% | CLIP: 17.44% | MLP: 95.53% | Adapted: 95.71% | Total: 95.85%
+  AI Challenger:  Final: 79.94% | CLIP: 11.30% | MLP: 79.40% | Adapted: 79.43% | Total: 79.45%
+  SPD:  Final: 77.79% | CLIP: 20.12% | MLP: 77.10% | Adapted: 76.26% | Total: 77.48%
+
+
+================================================================================
+Experiment 23/25: L1=1.0, Contrastive=0.6
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 69.38% | CLIP: 17.44% | MLP: 67.76% | Adapted: 56.18% | Total: 66.71%
+  AI Challenger:  Final: 53.91% | CLIP: 11.30% | MLP: 51.04% | Adapted: 40.72% | Total: 50.26%
+  SPD:  Final: 44.76% | CLIP: 20.12% | MLP: 38.57% | Adapted: 40.43% | Total: 43.90%
+
+2-shot:
+  Plant Disease:  Final: 82.00% | CLIP: 17.44% | MLP: 78.50% | Adapted: 74.35% | Total: 80.74%
+  AI Challenger:  Final: 64.19% | CLIP: 11.30% | MLP: 62.25% | Adapted: 57.08% | Total: 63.75%
+  SPD:  Final: 50.33% | CLIP: 20.12% | MLP: 47.79% | Adapted: 46.55% | Total: 49.83%
+
+4-shot:
+  Plant Disease:  Final: 89.41% | CLIP: 17.44% | MLP: 87.71% | Adapted: 85.26% | Total: 89.38%
+  AI Challenger:  Final: 71.55% | CLIP: 11.30% | MLP: 70.19% | Adapted: 68.51% | Total: 71.38%
+  SPD:  Final: 61.86% | CLIP: 20.12% | MLP: 60.21% | Adapted: 58.93% | Total: 61.38%
+
+8-shot:
+  Plant Disease:  Final: 93.09% | CLIP: 17.44% | MLP: 92.44% | Adapted: 91.15% | Total: 93.00%
+  AI Challenger:  Final: 77.09% | CLIP: 11.30% | MLP: 76.19% | Adapted: 75.49% | Total: 76.32%
+  SPD:  Final: 71.45% | CLIP: 20.12% | MLP: 70.79% | Adapted: 69.60% | Total: 71.40%
+
+16-shot:
+  Plant Disease:  Final: 96.00% | CLIP: 17.44% | MLP: 95.59% | Adapted: 95.53% | Total: 95.76%
+  AI Challenger:  Final: 80.17% | CLIP: 11.30% | MLP: 79.51% | Adapted: 79.57% | Total: 79.62%
+  SPD:  Final: 77.81% | CLIP: 20.12% | MLP: 77.07% | Adapted: 76.24% | Total: 77.52%
+
+
+================================================================================
+Experiment 24/25: L1=1.0, Contrastive=0.8
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 69.38% | CLIP: 17.44% | MLP: 67.71% | Adapted: 56.15% | Total: 66.53%
+  AI Challenger:  Final: 54.09% | CLIP: 11.30% | MLP: 50.96% | Adapted: 40.74% | Total: 50.58%
+  SPD:  Final: 44.76% | CLIP: 20.12% | MLP: 38.90% | Adapted: 40.31% | Total: 43.69%
+
+2-shot:
+  Plant Disease:  Final: 81.94% | CLIP: 17.44% | MLP: 78.65% | Adapted: 74.24% | Total: 80.97%
+  AI Challenger:  Final: 64.47% | CLIP: 11.30% | MLP: 62.32% | Adapted: 56.66% | Total: 63.87%
+  SPD:  Final: 50.40% | CLIP: 20.12% | MLP: 48.14% | Adapted: 46.02% | Total: 49.90%
+
+4-shot:
+  Plant Disease:  Final: 89.41% | CLIP: 17.44% | MLP: 87.59% | Adapted: 85.00% | Total: 89.29%
+  AI Challenger:  Final: 71.53% | CLIP: 11.30% | MLP: 70.15% | Adapted: 68.36% | Total: 71.11%
+  SPD:  Final: 61.83% | CLIP: 20.12% | MLP: 60.29% | Adapted: 58.81% | Total: 61.21%
+
+8-shot:
+  Plant Disease:  Final: 93.21% | CLIP: 17.44% | MLP: 92.56% | Adapted: 91.38% | Total: 93.00%
+  AI Challenger:  Final: 77.04% | CLIP: 11.30% | MLP: 76.26% | Adapted: 75.87% | Total: 76.43%
+  SPD:  Final: 71.29% | CLIP: 20.12% | MLP: 70.62% | Adapted: 69.95% | Total: 71.05%
+
+16-shot:
+  Plant Disease:  Final: 96.06% | CLIP: 17.44% | MLP: 95.56% | Adapted: 95.74% | Total: 95.79%
+  AI Challenger:  Final: 80.13% | CLIP: 11.30% | MLP: 79.51% | Adapted: 79.40% | Total: 79.68%
+  SPD:  Final: 77.88% | CLIP: 20.12% | MLP: 76.93% | Adapted: 76.24% | Total: 77.36%
+
+
+================================================================================
+Experiment 25/25: L1=1.0, Contrastive=1.0
+================================================================================
+
+
+1-shot:
+  Plant Disease:  Final: 69.35% | CLIP: 17.44% | MLP: 67.38% | Adapted: 55.94% | Total: 66.29%
+  AI Challenger:  Final: 54.13% | CLIP: 11.30% | MLP: 51.30% | Adapted: 40.81% | Total: 50.32%
+  SPD:  Final: 44.74% | CLIP: 20.12% | MLP: 38.83% | Adapted: 40.52% | Total: 43.79%
+
+2-shot:
+  Plant Disease:  Final: 82.06% | CLIP: 17.44% | MLP: 78.50% | Adapted: 74.53% | Total: 81.12%
+  AI Challenger:  Final: 64.57% | CLIP: 11.30% | MLP: 62.17% | Adapted: 56.36% | Total: 63.92%
+  SPD:  Final: 50.24% | CLIP: 20.12% | MLP: 48.45% | Adapted: 46.17% | Total: 49.79%
+
+4-shot:
+  Plant Disease:  Final: 89.38% | CLIP: 17.44% | MLP: 87.59% | Adapted: 85.24% | Total: 89.38%
+  AI Challenger:  Final: 71.57% | CLIP: 11.30% | MLP: 70.13% | Adapted: 68.49% | Total: 71.26%
+  SPD:  Final: 61.62% | CLIP: 20.12% | MLP: 59.98% | Adapted: 58.76% | Total: 61.24%
+
+8-shot:
+  Plant Disease:  Final: 93.00% | CLIP: 17.44% | MLP: 92.38% | Adapted: 91.09% | Total: 92.74%
+  AI Challenger:  Final: 77.11% | CLIP: 11.30% | MLP: 76.53% | Adapted: 75.83% | Total: 76.77%
+  SPD:  Final: 71.17% | CLIP: 20.12% | MLP: 70.55% | Adapted: 69.79% | Total: 71.14%
+
+16-shot:
+  Plant Disease:  Final: 96.06% | CLIP: 17.44% | MLP: 95.68% | Adapted: 95.74% | Total: 95.76%
+  AI Challenger:  Final: 80.15% | CLIP: 11.30% | MLP: 79.25% | Adapted: 79.72% | Total: 79.57%
+  SPD:  Final: 77.62% | CLIP: 20.12% | MLP: 77.05% | Adapted: 76.17% | Total: 77.45%
+
+
+================================================================================
+Grid Search Completed
+================================================================================
+End Time: $(date)
+Total Experiments: 25
+Results saved to: result/log/l1_contrastive_grid_search_results.txt
+================================================================================

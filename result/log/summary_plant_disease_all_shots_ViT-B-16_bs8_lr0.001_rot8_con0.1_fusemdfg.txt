@@ -1,0 +1,49 @@
+2026-01-01 13:42:45 ================================================================================
+2026-01-01 13:42:45 HCA-CLIP Experiment Summary: Plant Disease
+2026-01-01 13:42:45 ================================================================================
+2026-01-01 13:42:45 ================================================================================
+HCA-CLIP Configuration
+================================================================================
+
+Dataset Settings:
+  Dataset: plant_disease
+  Shots: 1
+  Seed: 2024
+
+Model Settings:
+  Backbone: ViT-B/16
+  Fusion Type: 4 (4=MDFG, 3=cat, 2=add, 1=single)
+
+Training Settings:
+  Epochs: 50
+  Learning Rate: 0.001
+  Batch Size: 8
+
+Loss Weights:
+  CE MLP: 1.0
+  CE Adapted: 1.0
+  CE Total: 1.0
+  L1 MLP: 1.0
+  L1 Adapted: 1.0
+  CE Branch 1to3: 1.0
+  CE Branch 2to3: 1.0
+  L1 Branch 1to3: 1.0
+  L1 Branch 2to3: 1.0
+
+Augmentation:
+  Rotation: Enabled
+  Rotation Type: rotation8
+
+Contrastive Learning:
+  Enabled: Yes
+  Weight: 0.1
+  Temperature: 0.07
+
+Ablation Settings:
+  Use Branch Classifiers: Yes
+
+================================================================================
+2026-01-01 13:42:45 
+Shots to train: [1, 2, 4, 8, 16]
+2026-01-01 13:42:45 ================================================================================
+

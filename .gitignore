@@ -1,0 +1,33 @@
+# Ignore large figure outputs
+Fig/
+
+# Large model/checkpoint files
+model/clip/*.pt
+result/checkpoints/*.pth
+
+# Keep only README.md
+*.md
+!README.md
+
+# Ablation/experiment scripts (keep only scripts/train.py)
+experiments/*.sh
+experiments/README.md
+experiments/SERVER_SETUP.md
+test_random_augment.py
+verify_experiment_logs.py
+examples.py
+comparison_results_with_sota.pdf
+comparison_results_with_sota.png
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.venv/
+venv/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
