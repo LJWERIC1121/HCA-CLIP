@@ -84,6 +84,93 @@ def rotation8():
     return _transform, 8
 
 
+def random_rotation2(max_angle=180):
+    """
+    Apply random rotation augmentation: 2 random angles per image
+    Args:
+        max_angle: maximum absolute rotation angle in degrees
+    Returns:
+        transform_func: function to apply random rotation
+        multiplier: number of augmented views per image (2)
+    """
+    def _transform(images):
+        """
+        Args:
+            images: [B, C, H, W] tensor
+        Returns:
+            rotated_images: [B*2, C, H, W] tensor
+        """
+        B, C, H, W = images.shape
+        rotated_list = []
+
+        for _ in range(2):
+            angle = random.uniform(-max_angle, max_angle)
+            rotated = TF.rotate(images, angle=angle, interpolation=TF.InterpolationMode.BILINEAR)
+            rotated_list.append(rotated)
+
+        return torch.stack(rotated_list, dim=1).view(B * 2, C, H, W)
+
+    return _transform, 2
+
+
+def random_rotation4(max_angle=180):
+    """
+    Apply random rotation augmentation: 4 random angles per image
+    Args:
+        max_angle: maximum absolute rotation angle in degrees
+    Returns:
+        transform_func: function to apply random rotation
+        multiplier: number of augmented views per image (4)
+    """
+    def _transform(images):
+        """
+        Args:
+            images: [B, C, H, W] tensor
+        Returns:
+            rotated_images: [B*4, C, H, W] tensor
+        """
+        B, C, H, W = images.shape
+        rotated_list = []
+
+        for _ in range(4):
+            angle = random.uniform(-max_angle, max_angle)
+            rotated = TF.rotate(images, angle=angle, interpolation=TF.InterpolationMode.BILINEAR)
+            rotated_list.append(rotated)
+
+        return torch.stack(rotated_list, dim=1).view(B * 4, C, H, W)
+
+    return _transform, 4
+
+
+def random_rotation8(max_angle=180):
+    """
+    Apply random rotation augmentation: 8 random angles per image
+    Args:
+        max_angle: maximum absolute rotation angle in degrees
+    Returns:
+        transform_func: function to apply random rotation
+        multiplier: number of augmented views per image (8)
+    """
+    def _transform(images):
+        """
+        Args:
+            images: [B, C, H, W] tensor
+        Returns:
+            rotated_images: [B*8, C, H, W] tensor
+        """
+        B, C, H, W = images.shape
+        rotated_list = []
+
+        for _ in range(8):
+            angle = random.uniform(-max_angle, max_angle)
+            rotated = TF.rotate(images, angle=angle, interpolation=TF.InterpolationMode.BILINEAR)
+            rotated_list.append(rotated)
+
+        return torch.stack(rotated_list, dim=1).view(B * 8, C, H, W)
+
+    return _transform, 8
+
+
 def get_rotation_labels(labels, multiplier):
     """
     Expand labels to match augmented images
